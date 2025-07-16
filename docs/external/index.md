@@ -3,7 +3,7 @@
 ```{toctree}
 :maxdepth: 1
 
-Github Landscape Quick Deployment Guide <landscape/tutorial.md>
+Landscape Quick Deployment Guide <landscape/tutorial.md>
 
 ```
 

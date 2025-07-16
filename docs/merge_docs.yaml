@@ -1,5 +1,5 @@
 sources:
-  - name: Github Landscape Quick Deployment Guide
+  - name: Landscape Quick Deployment Guide
     type: github
     repo_url: git@github.com:canonical/landscape-documentation.git
     branch: main
