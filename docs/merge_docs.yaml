@@ -1,0 +1,9 @@
+sources:
+  - name: Github Landscape Quick Deployment Guide
+    type: github
+    repo_url: git@github.com:canonical/landscape-documentation.git
+    branch: main
+    doc_subdir: docs/
+    pages:
+    - doc_file: tutorial.md
+    dest_dir: landscape/
