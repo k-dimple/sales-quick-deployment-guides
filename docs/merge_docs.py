@@ -290,7 +290,7 @@ def build_all_indices(output_dir: Path, source_entries: List[Dict]) -> None:
         cat_map[e.get("category")].append(e)
 
     root_index = output_dir / "index.md"
-    lines = ["# Deployment guide\n\n"]
+    lines = ["# Deployment guides\n\n"]
 
     categories = sorted([c for c in cat_map if c is not None])
     if categories:

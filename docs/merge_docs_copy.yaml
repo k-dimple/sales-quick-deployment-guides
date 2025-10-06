@@ -8,6 +8,15 @@ sources:
     - doc_file: tutorial.md
     dest_dir: landscape/
 
+  - name: Microcloud
+    type: github
+    repo_url: git@github.com:canonical/microcloud.git
+    branch: main
+    doc_subdir: doc/tutorial/
+    pages:
+    - doc_file: get_started.md
+    dest_dir: microcloud/
+
   - name: Microceph
     type: github
     repo_url: git@github.com:canonical/microceph.git
@@ -35,3 +44,10 @@ sources:
         filename: getting-started.md
     dest_dir: microk8s/
 
+  - name: Ubuntu Pro
+    type: github
+    repo_url: git@github.com:canonical/ubuntu-pro-docs.git
+    branch: main
+    pages:
+    - doc_file: account-setup.rst
+    dest_dir: pro/
